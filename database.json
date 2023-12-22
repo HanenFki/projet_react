@@ -1,19 +1,322 @@
 {
-  "posts": [
+  "produits": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "id": 2,
+      "reference": "Ecran Solaire",
+      "designation": "SVR SUN SECURE BLUR SPF50+ 50ML",
+      "marque": "SVR",
+      "prixVente": 48.9,
+      "qtestock": 50,
+      "categorie": "Tout les types de peaux",
+      "imageartpetitf": "images/svr-sun-secure-blur-spf50-50ml.webp"
+    },
+    {
+      "id": 3,
+      "reference": "Gel nettoyant",
+      "designation": "SVR SEBIACLEAR GEL MOUSSANT 400ML",
+      "marque": "SVR",
+      "prixVente": 37.7,
+      "qtestock": 20,
+      "imageartpetitf": "images/svr-sebiaclear-gel-moussant-400ml.webp"
+    },
+    {
+      "id": 4,
+      "reference": "Créme",
+      "designation": "GAMARDE CRÈME ULTRA RICHE 40 ML",
+      "marque": "GAMARDE",
+      "categorie": "Peaux séches",
+      "prixVente": 45.6,
+      "qtestock": 10,
+      "imageartpetitf": "images/gamarde-creme-ultra-riche-40-ml- (1).jpg"
+    },
+    {
+      "id": 5,
+      "reference": "Créme",
+      "designation": "LA ROCHE POSAY NUTRIC INTENSE CRÈME 50 ML",
+      "marque": "LA ROCHE POSAY",
+      "prixVente": 77.1,
+      "qtestock": 15,
+      "imageartpetitf": "images/la-roche-posay-nutric-intense-creme-50-ml.jpg"
+    },
+    {
+      "id": 6,
+      "reference": "Créme",
+      "designation": "CERAVE SA CRÈME ANTI-RUGOSITÉS 340 ML",
+      "marque": "CERAVE",
+      "categorie": "Peaux séches",
+      "prixVente": 65.5,
+      "qtestock": 25,
+      "imageartpetitf": "images/cerave-sa-creme-anti-rugosites-340-ml.jpg"
+    },
+    {
+      "id": 7,
+      "reference": "Créme",
+      "designation": "DERMEDIC COFFRET HYDRAIN 3 CRÈME DE NUIT",
+      "marque": "DERMEDIC",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 54.9,
+      "qtestock": 10,
+      "imageartpetitf": "images/dermedic-coffret-hydrain-3-creme-de-nuit.jpg"
+    },
+    {
+      "id": 8,
+      "reference": "Créme",
+      "designation": "PURALIA CRÈME DE JOUR 150 ML",
+      "marque": "PURALIA",
+      "categorie": "Peaux séches",
+      "prixVente": 29.8,
+      "qtestock": 50,
+      "imageartpetitf": "images/puralia-creme-de-jour-150-ml-.jpg"
+    },
+    {
+      "id": 10,
+      "reference": "Gel nettoyant",
+      "designation": "BIODERMA SEBIUM GEL MOUSSANT ACTIF 200 ML",
+      "marque": "BIODERMA",
+      "prixVente": 35.7,
+      "qtestock": 80,
+      "imageartpetitf": "images/bioderma-sebium-gel-moussant-actif-200-ml.jpg"
+    },
+    {
+      "id": 11,
+      "reference": "Contour des yeux",
+      "designation": "DUCRAY MELASCREEN CONTOUR DES YEUX ANTITACHES 15 ML",
+      "marque": "DUCRAY",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 106.6,
+      "qtestock": 70,
+      "imageartpetitf": "images/ducray-melascreen-contour-des-yeux-antitaches-15-ml.jpg"
+    },
+    {
+      "id": 12,
+      "reference": "SERUM",
+      "designation": "VICHY LIFTACTIV RETINOL SPECIALIST SERUM RIDES PROFONDES [A+] 30ML",
+      "marque": "VICHY",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 167.5,
+      "qtestock": 30,
+      "imageartpetitf": "images/vichy-liftactiv-retinol-specialist-serum-rides-profondes-a-30ml.jpg"
+    },
+    {
+      "id": 13,
+      "reference": "CREME",
+      "designation": "LA ROCHE POSAY TOLERIANE DERMALLERGO CREME 40ML",
+      "marque": "LA ROCHE POSAY",
+      "prixVente": 70.4,
+      "qtestock": 70,
+      "imageartpetitf": "images/la-roche-posay-toleriane-dermallergo-creme-40ml.jpg"
+    },
+    {
+      "id": 14,
+      "reference": "LAIT DÉMAQUILLANT",
+      "designation": "PURALIA LAIT DÉMAQUILLANT DOUCEUR 150 ML",
+      "marque": "PURALIA",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 19.9,
+      "qtestock": 100,
+      "imageartpetitf": "images/puralia-lait-demaquillant-douceur-150-ml.jpg"
+    },
+    {
+      "id": 15,
+      "reference": "EAU THERMALE",
+      "designation": "GAMARDE EAU THERMALE PEAUX SENSIBLES 250ML",
+      "marque": "GAMARDE",
+      "categorie": "PEAUX SENSIBLES",
+      "prixVente": 24.9,
+      "qtestock": 80,
+      "imageartpetitf": "images/gamarde-eau-thermale-peaux-sensibles-250ml.jpg"
+    },
+    {
+      "id": 16,
+      "reference": "CREME",
+      "designation": "ADERMA BIOLOGY A-R SOIN ANTI ROUGEURS PEAUX A TENDANCE COUPEROSIQUE 40ML",
+      "marque": "ADERMA BIOLOGY",
+      "categorie": "PEAUX SENSIBLES",
+      "prixVente": 43.8,
+      "qtestock": 80,
+      "imageartpetitf": "images/aderma-biology-a-r-soin-anti-rougeurs-peaux-a-tendance-couperosique-40ml.jpg"
+    },
+    {
+      "id": 17,
+      "reference": "SERUM",
+      "designation": "FILORGA NCEF-SHOT CONCENTRE POLYREVITALISANT SUPREME 15ML",
+      "marque": "FILORGA",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 196.4,
+      "qtestock": 80,
+      "imageartpetitf": "images/filorga-ncef-shot-concentre-polyrevitalisant-supreme-15ml.jpg"
+    },
+    {
+      "id": 18,
+      "reference": "Pack Cheveux",
+      "designation": "LUXEOL CHUTE DE CHEVEUX PROGRESSIVE 2EN1 14*6ML",
+      "marque": "LUXEOL",
+      "categorie": "Cheveux Secs",
+      "prixVente": 240.3,
+      "qtestock": 80,
+      "imageartpetitf": "images/luxeol-chute-de-cheveux-progressive-2en1-146ml.jpg"
+    },
+    {
+      "id": 19,
+      "reference": "Soin Cheveux",
+      "designation": "PURALIA MASQUE SOIN RÉPARATEUR 150 ML",
+      "marque": "PURALIA",
+      "categorie": "Tout les types de cheveux",
+      "prixVente": 23.2,
+      "qtestock": 80,
+      "imageartpetitf": "images/puralia-masque-soin-reparateur-150-ml-.jpg"
+    },
+    {
+      "id": 20,
+      "reference": "SERUM cheveux",
+      "designation": "K-REINE SÉRUM ÉQUILIBRANT INTENSIF PRO KÉRATINE VITAMINE E 100 ML",
+      "marque": "K-REINE",
+      "categorie": "Cheveux Secs",
+      "prixVente": 19.9,
+      "qtestock": 80,
+      "imageartpetitf": "images/k-reine-serum-hydratant-reparateur-restructurant-huile-dargan-200-ml.jpg"
+    },
+    {
+      "id": 21,
+      "reference": "Shampoing cheveux",
+      "designation": "SO BIO APRES SHAMPOOING COULEUR ECLAT HIBISCUS 200 ML",
+      "marque": "SO BIO",
+      "categorie": "Tout les types de cheveux",
+      "prixVente": 31.2,
+      "qtestock": 80,
+      "imageartpetitf": "images/so-bio-apres-shampooing-couleur-eclat-hibiscus-200-ml-.jpg"
+    },
+    {
+      "id": 22,
+      "reference": "Shampoing SOLAIRE",
+      "designation": "LUXÉOL SHAMPOOING SOLAIRE 200 ML ",
+      "marque": "LUXÉOL",
+      "categorie": "Tout les types de cheveux",
+      "prixVente": 30.6,
+      "qtestock": 80,
+      "imageartpetitf": "images/luxeol-shampooing-solaire-200-ml.jpg"
+    },
+    {
+      "id": 23,
+      "reference": "Shampoing SOLAIRE",
+      "designation": "CLARENIA ECRAN SOLAIRE CAPILLAIRE SPF30 200ML ",
+      "marque": "CLARENIA",
+      "categorie": "Tout les types de cheveux",
+      "prixVente": 35.5,
+      "qtestock": 80,
+      "imageartpetitf": "images/clarenia-ecran-solaire-capillaire-spf30-200ml.jpg"
+    },
+    {
+      "id": 24,
+      "reference": "Shampoing ",
+      "designation": "NEUTRADERM SHAMPOOING EXTRA DOUX DERMO-RESPECT 500ML ",
+      "marque": "NEUTRADERM",
+      "categorie": "Tout les types de cheveux",
+      "prixVente": 36.2,
+      "qtestock": 80,
+      "imageartpetitf": "images/-search-neutraderm-shampooing-extra-doux-dermo-respect-500ml.jpg"
+    },
+    {
+      "id": 25,
+      "reference": "Anti Cernes ",
+      "designation": "KOLSI ANTI CERNES CONCEALER STICK 03",
+      "marque": "KOLSI",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 9.5,
+      "qtestock": 80,
+      "imageartpetitf": "images/kolsi-anti-cernes-concealer-stick-04-.jpg"
+    },
+    {
+      "id": 26,
+      "reference": "CONTOURING ",
+      "designation": "KOLSI CONTOURING STICK N 303",
+      "marque": "KOLSI",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 13.5,
+      "qtestock": 80,
+      "imageartpetitf": "images/kolsi-contouring-stick-n-303-.jpg"
+    },
+    {
+      "id": 27,
+      "reference": "BB CRÈME ",
+      "designation": "GAMARDE BB CRÈME PEAUX CLAIRES 40 ML",
+      "marque": "GAMARDE",
+      "categorie": "PEAUX CLAIRES",
+      "prixVente": 64.2,
+      "qtestock": 80,
+      "imageartpetitf": "images/gamarde-bb-creme-peaux-claires-40-ml.jpg"
+    },
+    {
+      "id": 28,
+      "reference": " CC CRÈME SPF 50 ",
+      "designation": "URIAG ROSÉLIANE - CC CRÈME SPF 50 + TEINTÉ CLAIR",
+      "marque": "URIAG",
+      "categorie": "PEAUX CLAIRES",
+      "prixVente": 37.6,
+      "qtestock": 80,
+      "imageartpetitf": "images/uriag-roseliane-cc-cream-spf30.jpg"
+    },
+    {
+      "id": 29,
+      "reference": " CRÈME ",
+      "designation": "NUXE CRÈME PRODIGIEUSE BOOST BASE LISSANTE BLUR 5 EN 1 30ML",
+      "marque": "NUXE",
+      "categorie": "Tout les types de peaux",
+      "prixVente": 68.5,
+      "qtestock": 80,
+      "imageartpetitf": "images/nuxe-creme-prodigieuse-boost-base-lissante-blur-5-en-1-30ml.jpg"
+    },
+    {
+      "id": 30,
+      "reference": " PINCEAU",
+      "designation": "EYE CARE PINCEAU ANTI-CERNES BEIGE CLAIR",
+      "marque": "EYE CARE",
+      "categorie": "ANTI-CERNES",
+      "prixVente": 35.5,
+      "qtestock": 80,
+      "imageartpetitf": "images/eye-care-pinceau-anti-cernes-beige-clair-.jpg"
     }
   ],
-  "comments": [
+  "Clients": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "Prenom": "Hanen",
+      "nom": "Fki",
+      "num": "55898222",
+      "email": "hanenfki21@gmail.com",
+      "image": "images/1.png"
+    },
+    {
+      "id": 3,
+      "nom": "Tounsi",
+      "Prenom": "Alia",
+      "email": "alitounsi@gmail.com",
+      "num": 77888962,
+      "image": "images/2.png"
+    },
+    {
+      "id": 4,
+      "nom": "Fahem",
+      "Prenom": "Nouha",
+      "email": "nouhafahem@gmail.com",
+      "num": 989898,
+      "image": "images/3.png"
+    },
+    {
+      "id": 5,
+      "nom": "Baklouti",
+      "Prenom": "Fatma",
+      "email": "fatmabak@gmail.com",
+      "num": 989898,
+      "image": "images/4.png"
+    },
+    {
+      "id": 6,
+      "nom": "Chamseddine",
+      "Prenom": "Hiba",
+      "email": "hibach@gmail.com",
+      "num": 989898,
+      "image": "images/5.jpg"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
