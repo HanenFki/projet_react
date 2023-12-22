@@ -1,0 +1,6 @@
+.article-image {
+    max-height: 200px; /* ajustez la hauteur selon vos besoins */
+    object-fit: cover;
+    width: 100%;
+  }
+  
